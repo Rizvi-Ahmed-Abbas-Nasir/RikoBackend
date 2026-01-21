@@ -15,6 +15,7 @@ app.use(
       
       "http://127.0.0.1:5500",
       "http://localhost:5173",
+      "https://riko-ai-d2cj.vercel.app",
       "https://riko-ai-delta.vercel.app"
       
     ],
