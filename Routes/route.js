@@ -1,7 +1,7 @@
 import express from "express";
 const router = express.Router();
 
-import { RikoAI } from "../Controllers/RikoAI.js";
+import  RikoAI  from "../Controllers/RikoAI.js";
 
 
 router.post('/api/RikoChat', RikoAI)
