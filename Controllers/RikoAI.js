@@ -19,7 +19,6 @@ export default async function handler(req, res) {
       return res.status(400).json({ error: "Messages are required" });
     }
 
-    // Log user message
     console.log(
       "📥 User Message:",
       messages[messages.length - 1]?.content
